@@ -9,7 +9,7 @@ public class App1 {
 	
 	int adder(int firstnumber,int secondnumber)
 	{
-		return firstnumber+secondnumber;
+		return firstnumber + secondnumber;
 	}
 
 	int sub(int firstnumber,int secondnumber)

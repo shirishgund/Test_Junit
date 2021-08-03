@@ -16,10 +16,9 @@ public class AppTest
 	App1 as=new App1();
     @Test
     public void Addition()
-    {
-    	
+    {	
         
-        assertEquals (4,as.adder(2, 2) );
+        assertEquals(4,as.adder(2, 2) );
     }
     @Test
     public void Subtraction()
