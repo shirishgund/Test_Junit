@@ -69,7 +69,7 @@
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>Lenovo-PC-snapshots</name>
-			<url>http://localhost:8081/artifactory/testing</url>
+			<url>http://localhost:8081/artifactory/testing </url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
