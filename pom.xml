@@ -60,16 +60,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>Lenovo-PC-releases</name>
-			<url>http://localhost:8081/artifactory/testing</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>Lenovo-PC-snapshots</name>
-			<url>http://localhost:8081/artifactory/testing </url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
