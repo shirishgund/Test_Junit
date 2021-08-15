@@ -16,6 +16,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -36,13 +38,29 @@
 			<version>1.2.17</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>Lenovo-PC-releases</name>
+			<url>http://localhost:8081/artifactory/Test_repo</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Lenovo-PC-snapshots</name>
+			<url>http://localhost:8081/artifactory/Test_repo</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
 			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+			</plugin>
+			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.7.7.201606060606</version>
+				<version>0.8.6</version>
 				<executions>
 					<execution>
 						<goals>
